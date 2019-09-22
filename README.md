@@ -1,0 +1,1 @@
+# struts_sample
