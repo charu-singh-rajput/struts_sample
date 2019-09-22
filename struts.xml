@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "C://struts-3.0.dtd">
+<struts>
+	<constant name="struts.devMode" value="true"/>
+	<package name="ex" extends="struts-default">
+		<action name="hello"
+			class="example.HelloAction" method="execute">
+			<result name="success">/Result.jsp</result>	
+		</action>
+	</package>
+</struts>
